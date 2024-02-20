@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 export function MobileFooter() {
   return (
-    <div className="p-5 text-sm lg:hidden block ">
+    <div className="p-5 px-6 text-sm lg:hidden block bg-stone-100">
       <div className="py-5 border-t-[1.5px] ">
         {/* Language box */}
         <div className="flex text-center gap-2">

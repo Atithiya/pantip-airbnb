@@ -97,9 +97,11 @@ export function Categories() {
   return (
     // overflow-x-auto is used to allow horizontal scrolling when the content inside the container exceeds its width
     // border-b-[1px] shadow-sm
-    <div className="">
-      <div className="pt-[90px] pb-4 lg:px-10 px-4 text-gray-500">
+    // Catagories box
+    <div>
+      <div className="pt-[90px] pb-4 lg:px-10 px-6 text-gray-500">
         <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto mx-auto">
+          {/* Map each catagories */}
           {categories.map((item) => (
             <div
               key={item.label}
