@@ -1,96 +1,82 @@
-import { usePathname, useSearchParams } from "next/navigation";
-import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
 import {
   GiBarn,
-  GiBoatFishing,
-  GiCactus,
   GiCastle,
   GiCaveEntrance,
-  GiForestCamp,
-  GiIsland,
-  GiWindmill,
+  GiChainMail,
+  GiPhotoCamera,
+  GiMicrophone,
+  GiWindow,
+  GiTv,
+  GiSmartphone,
+  GiHouse,
+  GiCaesar,
 } from "react-icons/gi";
+import { BsChatLeftHeart } from "react-icons/bs";
 import { FaSkiing } from "react-icons/fa";
-import { BsSnow } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io5";
 import { MdOutlineVilla } from "react-icons/md";
 
 export function Categories() {
   const categories = [
     {
-      label: "Beach",
-      icon: TbBeach,
-      description: "This property is close to the beach!",
+      label: "สวนลุมพินี",
+      icon: BsChatLeftHeart,
     },
     {
-      label: "Windmills",
-      icon: GiWindmill,
-      description: "This property has windmills!",
+      label: "แกลลอรี่",
+      icon: GiChainMail,
     },
     {
-      label: "Modern",
+      label: "สยามสแควร์",
       icon: MdOutlineVilla,
-      description: "This property is modern!",
     },
     {
-      label: "Countryside",
-      icon: TbMountain,
-      description: "This property is in the countryside!",
+      label: "ภูมิภาค",
+      icon: GiCaesar,
     },
     {
-      label: "Pools",
-      icon: TbPool,
-      description: "This is property has a beautiful pool!",
+      label: "สินธร",
+      icon: GiWindow,
     },
     {
-      label: "Islands",
-      icon: GiIsland,
-      description: "This property is on an island!",
+      label: "การ์ตูน",
+      icon: GiTv,
     },
     {
-      label: "Lake",
-      icon: GiBoatFishing,
-      description: "This property is near a lake!",
+      label: "กรุงโซล",
+      icon: GiMicrophone,
     },
     {
-      label: "Skiing",
-      icon: FaSkiing,
-      description: "This property has skiing activies!",
-    },
-    {
-      label: "Castles",
+      label: "ศาสนา",
       icon: GiCastle,
-      description: "This property is an ancient castle!",
     },
     {
-      label: "Caves",
+      label: "ไกลบ้าน",
+      icon: FaSkiing,
+    },
+    {
+      label: "พันทิป",
       icon: GiCaveEntrance,
-      description: "This property is in a spooky cave!",
     },
     {
-      label: "Camping",
-      icon: GiForestCamp,
-      description: "This property offers camping activities!",
+      label: "มาบุญครอง",
+      icon: GiSmartphone,
     },
     {
-      label: "Arctic",
-      icon: BsSnow,
-      description: "This property is in arctic environment!",
+      label: "ชายคา",
+      icon: GiHouse,
     },
     {
-      label: "Desert",
-      icon: GiCactus,
-      description: "This property is in the desert!",
+      label: "กล้อง",
+      icon: GiPhotoCamera,
     },
     {
-      label: "Barns",
+      label: "เฉลิมกรุง",
       icon: GiBarn,
-      description: "This property is in a barn!",
     },
     {
-      label: "Lux",
+      label: "สีลม",
       icon: IoDiamond,
-      description: "This property is brand new and luxurious!",
     },
   ];
 

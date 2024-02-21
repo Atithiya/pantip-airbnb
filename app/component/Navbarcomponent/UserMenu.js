@@ -1,9 +1,10 @@
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
+import { GrLanguage } from "react-icons/gr";
 export function UserMenu() {
   return (
     <div className="relative">
-      <div className="flex flex-row items-center gap-3">
+      <div className="flex flex-row items-center">
         <div
           className="
           hidden
@@ -17,7 +18,12 @@ export function UserMenu() {
           transition 
           cursor-pointer"
         >
-          Airbnb your home
+          ตั้งกระทู้กับ Pantip
+        </div>
+        <div className="hidden lg:block me-2">
+          <button className="btn btn-circle btn-ghost ">
+            <GrLanguage />
+          </button>
         </div>
         <div
           className="

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Navbar } from "./component/Navbar";
 import { Categories } from "./component/Navbarcomponent/Categories";
-import { ListingCard } from "./component/์ListingCard";
+import { ListingCard } from "./component/ListingCard";
 import { Footer } from "./component/Footer";
 import { MobileFooter } from "./component/MobileFooter";
 

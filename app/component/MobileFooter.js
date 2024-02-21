@@ -23,7 +23,7 @@ export function MobileFooter() {
       </div>
       {/* Social box */}
       <div>
-        <ul className="flex text-xl gap-4 mt-5 ">
+        <ul className="flex text-2xl gap-4 mt-5 ">
           <li>
             <a href="https://www.facebook.com/pantipdotcom/" target="_blank">
               <IoLogoFacebook />

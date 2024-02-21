@@ -29,7 +29,7 @@ export function Search() {
         px-6
         "
         >
-          Hello
+          ค้นหา
         </div>
         <div
           className="
@@ -43,7 +43,7 @@ export function Search() {
         text-center
         "
         >
-          Any Week
+          My Feed
         </div>
         <div
           className="
@@ -58,7 +58,7 @@ export function Search() {
         
         "
         >
-          <div className="hidden sm:block">Add Guest</div>
+          <div className="hidden sm:block">Explore</div>
           <div
             className="
           p-2
