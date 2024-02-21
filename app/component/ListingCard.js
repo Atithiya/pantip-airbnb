@@ -69,7 +69,7 @@ export function ListingCard() {
   ];
 
   return (
-    <div className="px-6 lg:px-10 py-4 col-span-1 text-base ">
+    <div className="pt-52 px-6 lg:px-10 py-4 col-span-1 text-base ">
       {/* Container for image grid */}
       <div className="gap-y-5 lg:gap-y-10 lg:gap-x-6 md:gap-4 grid md:grid-cols-2 lg:grid-cols-4 ">
         {/* Map through the images and render them */}
