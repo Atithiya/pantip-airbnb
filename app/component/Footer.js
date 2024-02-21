@@ -18,7 +18,7 @@ export function Footer() {
   ];
 
   return (
-    <div className="text-base bg-stone-100 px-6  pt-5 lg:px-10 ">
+    <div className="text-base lg:text-sm bg-stone-100 px-6  pt-5 lg:pt-0 lg:px-10 ">
       {/* Footer section 1  */}
       <div className="grid lg:grid-cols-3 py-5  lg:py-10 gap-3">
         {footerItems.map((item, index) => (
