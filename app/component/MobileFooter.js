@@ -13,17 +13,17 @@ export function MobileFooter() {
           <div className="text-lg">
             <GrLanguage />
           </div>
-          <div>ไทย</div>
+          <div className="text-base">ไทย</div>
         </div>
         {/* End of Language box */}
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 text-base">
         <div>© 2024 Internet Marketing co., ltd</div>
       </div>
       {/* Social box */}
       <div>
-        <ul className="flex text-2xl gap-4 mt-5 ">
+        <ul className="flex text-3xl gap-4 mt-5 ">
           <li>
             <a href="https://www.facebook.com/pantipdotcom/" target="_blank">
               <IoLogoFacebook />

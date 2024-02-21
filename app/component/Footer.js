@@ -18,7 +18,7 @@ export function Footer() {
   ];
 
   return (
-    <div className="text-sm bg-stone-100 px-6  pt-5 lg:px-10 ">
+    <div className="text-base bg-stone-100 px-6  pt-5 lg:px-10 ">
       {/* Footer section 1  */}
       <div className="grid lg:grid-cols-3 py-5  lg:py-10 gap-3">
         {footerItems.map((item, index) => (
@@ -31,7 +31,7 @@ export function Footer() {
       <div className="py-5 border-t-[1.5px] hidden lg:block ">
         <div>
           <div className=" flex justify-between">
-            <div className="flex gap-2">
+            <div className="flex gap-2 ">
               <div>© 2024 Internet Marketing co., ltd</div>
               <div className=" fle"></div>
               <ul className="flex gap-2 ">
@@ -75,7 +75,7 @@ export function Footer() {
                 <div className="text-lg">
                   <GrLanguage />
                 </div>
-                <div>ไทย</div>
+                <div className="text-base">ไทย</div>
               </div>
               {/* End of Language box */}
               <div>

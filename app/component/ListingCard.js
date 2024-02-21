@@ -91,7 +91,9 @@ export function ListingCard() {
             </div>
             {/* Description */}
             <div className="pt-3">
-              <div className="font-semibold">{item.post}</div>
+              <div className="font-semibold text-lg lg:text-base">
+                {item.post}
+              </div>
               <div className="font-light text-neutral-500 text">
                 {item.member}
               </div>

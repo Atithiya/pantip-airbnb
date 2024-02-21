@@ -24,9 +24,10 @@ export function Search() {
       >
         <div
           className="
-        text-sm
+        text-lg
+        lg:text-sm
         font-semibold
-        px-6
+        px-6 
         "
         >
           ค้นหา
