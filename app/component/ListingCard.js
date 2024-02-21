@@ -85,15 +85,13 @@ export function ListingCard() {
                 transition"
               />
               {/* Heart icon */}
-              <div className="absolute top-3 right-3 text-2xl text-white">
+              <div className="absolute top-3 right-3 text-2xl text-white ">
                 <FaRegHeart />
               </div>
             </div>
             {/* Description */}
-            <div className="pt-3">
-              <div className="font-semibold text-lg lg:text-base">
-                {item.post}
-              </div>
+            <div className="pt-3 text-lg lg:text-base">
+              <div className="font-semibold ">{item.post}</div>
               <div className="font-light text-neutral-500 text">
                 {item.member}
               </div>
