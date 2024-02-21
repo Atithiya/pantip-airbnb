@@ -82,7 +82,6 @@ export function Categories() {
 
   return (
     // overflow-x-auto is used to allow horizontal scrolling when the content inside the container exceeds its width
-    // border-b-[1px] shadow-sm
     // Catagories box
     <div className="w-full">
       <div className="pt-[90px] pb-4 lg:px-10 px-6 text-gray-500 ">
@@ -96,7 +95,7 @@ export function Categories() {
               <div className="text-2xl flex justify-center w-20 lg:w-auto ">
                 <item.icon />
               </div>
-              <div className="text-center font-semibold text-xs">
+              <div className="text-center font-semibold text-sm lg:text-xs ">
                 {item.label}
               </div>
             </div>
