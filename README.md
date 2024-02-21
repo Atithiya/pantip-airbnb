@@ -2,7 +2,7 @@
 
 This project aims to recreate the Pantip website interface using the Airbnb design style to inspire the development of the Pantip website with an Airbnb-style aesthetic. It is built using Next.js, Tailwind CSS, and DaisyUI by Tailwind CSS.
 
-- https://pantip-atithiya.vercel.app/
+- https://pantip-airbnb-atithiya.vercel.app/
 
 ## Features
 
