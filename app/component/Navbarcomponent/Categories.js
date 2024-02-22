@@ -16,6 +16,7 @@ import { FaSkiing } from "react-icons/fa";
 import { IoDiamond } from "react-icons/io5";
 import { MdOutlineVilla } from "react-icons/md";
 import { CategoriesButton } from "./CategoriesButton";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 export function Categories() {
   const categories = [
@@ -85,9 +86,15 @@ export function Categories() {
     // overflow-x-auto is used to allow horizontal scrolling when the content inside the container exceeds its width
     // Catagories box
     <div className="w-full overflow-x-auto flex lg:px-10 ">
-      <div className="lg:w-9/12">
+      <div className="lg:w-[790px]">
         <div className="pb-4 px-6 text-gray-500  overflow-x-auto">
-          <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto mx-auto">
+          <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto mx-auto no-scrollbar ">
+            <div className="hidden lg:block border rounded-xl hover:bg-gray-200 hover:cursor-pointer bg-white absolute left-10 text-black text-xl">
+              <MdKeyboardArrowLeft />
+            </div>
+            <div className="hidden lg:block border rounded-xl hover:bg-gray-200 hover:cursor-pointer absolute right-[405px] text-black text-xl">
+              <MdKeyboardArrowRight />
+            </div>
             {/* Map each catagories */}
             {categories.map((item) => (
               <div

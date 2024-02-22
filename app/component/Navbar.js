@@ -2,6 +2,7 @@ import { Categories } from "./Navbarcomponent/Categories";
 import { Logo } from "./Navbarcomponent/Logo";
 import { Search } from "./Navbarcomponent/Search";
 import { UserMenu } from "./Navbarcomponent/UserMenu";
+import { MobileButtonNavbar } from "./MobileButtonNavbar";
 export function Navbar() {
   return (
     <div className="fixed w-full shadow-sm top-0 bg-white z-10">
@@ -12,6 +13,7 @@ export function Navbar() {
       </div>
       <div>
         <Categories />
+        <MobileButtonNavbar />
       </div>
     </div>
   );

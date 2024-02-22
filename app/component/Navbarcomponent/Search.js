@@ -22,6 +22,19 @@ export function Search() {
       items-center
       justify-between"
       >
+        {/* mobile search  */}
+        <div
+          className="
+          p-2
+          rounded-full
+          text-black 
+          lg:hidden 
+          text-2xl
+          block 
+          ms-3"
+        >
+          <BiSearch />
+        </div>
         <div
           className="
         text-lg
@@ -65,7 +78,7 @@ export function Search() {
           p-2
           bg-rose-500
           rounded-full
-          text-white"
+          text-white hidden lg:block"
           >
             <BiSearch />
           </div>

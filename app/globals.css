@@ -31,4 +31,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  /* Categories: Hide scrollbar  */
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+  
 }

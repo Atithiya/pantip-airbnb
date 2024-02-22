@@ -3,15 +3,15 @@ const filterImage =
 
 export function CategoriesButton() {
   return (
-    <div className="flex gap-4">
-      <div className="border flex gap-3 rounded-xl p-4 mt-4 group hover:cursor-pointer">
+    <div className="flex gap-4 py-3 ms-16">
+      <div className="btn btn-ghost border-gray-300 flex gap-3 rounded-xl  group hover:cursor-pointer ">
         <div className="w-4 h-4">
           <img src={filterImage} />
         </div>
         <div className="text-xs font-semibold">ตัวกรอง</div>
       </div>
-      <div className="border flex gap-5 rounded-xl p-4 mt-4 group hover:cursor-pointer">
-        <div className="text-xs font-semibold">แสดงกระทู้ล่าสุด</div>
+      <div className="btn btn-ghost border-gray-300 flex gap-5 rounded-xl  group hover:cursor-pointer bg-white ">
+        <div className="text-xs font-semibold">แสดงกระทู้ที่ยังไม่อ่าน</div>
         <input type="checkbox" className="toggle toggle-sm" />
       </div>
     </div>
