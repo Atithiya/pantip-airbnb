@@ -87,7 +87,7 @@ export function Categories() {
     // Catagories box
     <div className="w-full overflow-x-auto flex lg:px-10 ">
       <div className="lg:w-[790px]">
-        <div className="pb-4 px-6 text-gray-500  overflow-x-auto">
+        <div className="pb-4 px-6 text-gray-500  overflow-x-auto border-b-[1px] lg:border-b-0">
           <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto mx-auto no-scrollbar ">
             <div className="hidden lg:block border rounded-xl hover:bg-gray-200 hover:cursor-pointer bg-white absolute left-10 text-black text-xl">
               <MdKeyboardArrowLeft />
